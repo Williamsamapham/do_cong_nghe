@@ -26,8 +26,7 @@
                                     <strong>{{ $message }}</strong>
                                 </div>
                             @endif
-                            <a href="{{ route('category.create') }}" class="btn btn-success">+ Thêm mới Danh Mục</a>
-                            <a href="{{ route('category.trash') }}" class="btn btn-primary">Thùng Rác</a>
+                            <a href="{{ route('admin.category.create') }}" class="btn btn-success">+ Thêm mới Danh Mục</a>
                         </div>
                         <div class="card-body px-0 pb-2">
                             <div class="table-responsive p-0">
@@ -41,7 +40,7 @@
                                             <th class="text-secondary opacity-7">Tùy Chọn</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
+                                    {{-- <tbody>
                                         @forelse ($categories as $item)
                                             <tr>
                                                 <td>{{ $item->id }}</td>
@@ -61,7 +60,7 @@
                                         @empty
                                             <span>Chưa Có Dữ Liệu</span>
                                         @endforelse
-                                    </tbody>
+                                    </tbody> --}}
                                 </table>
                             </div>
                         </div>

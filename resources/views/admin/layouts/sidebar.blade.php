@@ -8,8 +8,7 @@
             <img src="{{ asset('admin/') }}assets/img/logo-ct.png" class="navbar-brand-img h-100" alt="main_logo">
             <span class="ms-1 font-weight-bold text-white">Material Dashboard 2</span>
         </a>
-    </div>
-    <hr class="horizontal light mt-0 mb-2">
+    </div new Response <hr class="horizontal light mt-0 mb-2">
     <div class="collapse navbar-collapse  w-auto " id="sidenav-collapse-main">
         <ul class="navbar-nav">
             <li class="nav-item">
@@ -21,7 +20,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white " href="#">
+                <a class="nav-link text-white " href="{{ route('admin.category.list') }}">
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">table_view</i>
                     </div>
@@ -29,7 +28,7 @@
                 </a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white " href="#">
+                <a class="nav-link text-white " href="{{ route('admin.products.list') }}">
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">receipt_long</i>
                     </div>
@@ -69,13 +68,13 @@
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
                         <i class="material-icons opacity-10">person</i>
                     </div>
-                        <span class="nav-link-text ms-1"></span>
-                        <a class="nav-link text-white " href="">
-                            <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
-                                <i class="material-icons opacity-10">assignment</i>
-                            </div>
-                            <span class="nav-link-text ms-1">Log Out</span>
-                        </a>
+                    <span class="nav-link-text ms-1"></span>
+                    <a class="nav-link text-white " href="">
+                        <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">
+                            <i class="material-icons opacity-10">assignment</i>
+                        </div>
+                        <span class="nav-link-text ms-1">Log Out</span>
+                    </a>
             <li class="nav-item">
                 <a class="nav-link text-white " href="sign-in.html">
                     <div class="text-white text-center me-2 d-flex align-items-center justify-content-center">

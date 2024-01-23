@@ -1,22 +1,5 @@
-<!--
-=========================================================
-* Material Dashboard 2 - v3.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-dashboard
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://www.creative-tim.com/license)
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
--->
 <!DOCTYPE html>
 <html lang="en">
-
-<!-- Mirrored from demos.creative-tim.com/material-dashboard/pages/dashboard by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 05 Jan 2024 14:49:42 GMT -->
-<!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 
 <head>
@@ -27,8 +10,6 @@
     <title>
         @yield('title')
     </title>
-
-
     <link rel="canonical" href="https://www.creative-tim.com/product/material-dashboard" />
 
     <meta name="keywords"
@@ -138,18 +119,12 @@
             f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', 'GTM-NKDMSK6');
     </script>
-
-
-
     <script defer data-site="demos.creative-tim.com" src="../../../api.nepcha.com/js/nepcha-analytics.js"></script>
 </head>
 
 <body class="g-sidenav-show  bg-gray-200">
-
-
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NKDMSK6" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
-
     @include('admin.layouts.sidebar')
     @yield('content')
 

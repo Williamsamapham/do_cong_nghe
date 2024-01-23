@@ -21,9 +21,9 @@
                                 <h6 class="text-white text-capitalize ps-3">Thêm Mới Sản Phẩm</h6>
                             </div>
                             <br>
-                            <a href="{{ route('product.index') }}" class="btn btn-success">Quay Lại Trang Quản Lý</a>
+                            <a href="{{ route('admin.products.list') }}" class="btn btn-success">Quay Lại Trang Quản Lý</a>
                         </div>
-                        <form action="{{ route('product.store') }}" method="post" enctype="multipart/form-data">
+                        <form action="{{ route('admin.products.store') }}" method="post" enctype="multipart/form-data">
                             <div class="card-body px-0 pb-2">
                                 @csrf
                                 <div class="p-4">
@@ -81,9 +81,9 @@
                                         <label for="category_id">Chọn Danh Mục</label>
                                         <select class="form-control" id="parent_id" name="category_id">
                                             <option value="">Chọn Danh Mục</option>
-                                            @foreach ($categories as $category)
+                                            {{-- @foreach ($categories as $category)
                                                 <option value="{{ $category->id }}">{{ $category->name }}</option>
-                                            @endforeach
+                                            @endforeach --}}
                                         </select>
                                     </div>
                                 </div>
