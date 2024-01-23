@@ -21,9 +21,9 @@
                                 <h6 class="text-white text-capitalize ps-3">Thêm Mới Danh Mục</h6>
                             </div>
                             <br>
-                            <a href="{{ route('category.index') }}" class="btn btn-success">Quay Lại Trang Quản Lý</a>
+                            <a href="{{ route('admin.category.list') }}" class="btn btn-success">Quay Lại Trang Quản Lý</a>
                         </div>
-                        <form action="{{ route('category.store') }}" method="post">
+                        <form action="{{ route('admin.category.store') }}" method="post">
                             @csrf
                             <div class="card-body px-0 pb-2">
                                 <div class="p-4">

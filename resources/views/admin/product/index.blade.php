@@ -26,7 +26,7 @@
                                     <strong>{{ $message }}</strong>
                                 </div>
                             @endif
-                            <a href="{{ route('product.create') }}" class="btn btn-success">+ Thêm mới Sản Phẩm</a>
+                            <a href="{{ route('admin.products.create') }}" class="btn btn-success">+ Thêm mới Sản Phẩm</a>
                             {{-- <a href="{{ route('category.trash') }}" class="btn btn-primary">Thùng Rác</a> --}}
                         </div>
                         <div class="card-body px-0 pb-2">
@@ -44,7 +44,7 @@
                                             <th class="text-secondary opacity-7">Tùy Chọn</th>
                                         </tr>
                                     </thead>
-                                    <tbody>
+                                    {{-- <tbody>
                                         @forelse ($products as $item)
                                             <tr>
                                                 <td>{{ $item->id }}</td>
@@ -70,7 +70,7 @@
                                         @empty
                                             <span>Chưa Có Dữ Liệu</span>
                                         @endforelse
-                                    </tbody>
+                                    </tbody> --}}
                                 </table>
                             </div>
                         </div>
